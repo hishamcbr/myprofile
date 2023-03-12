@@ -1,0 +1,21 @@
+{
+    "name": "Kasp - PMJAY",
+    "short_name": "KASP ",
+    "icons": [
+        {
+            "src": "./img/icons/192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./img/icons/512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/login",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#4DBA87",
+    "gcm_sender_id": "103953800507"
+}
