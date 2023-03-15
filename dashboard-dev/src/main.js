@@ -28,6 +28,10 @@ import './assets/sass/demo.scss'
 
 import './registerServiceWorker'
 
+import VueSocialSharing from 'vue-social-sharing'
+
+
+
 
 // plugin setup
 Vue.use(VueRouter)
@@ -42,6 +46,7 @@ Vue.use(VueResource)
 Vue.use(VueCookies)
 Vue.use(VueTabs)
 Vue.use(VueFormWizard)
+Vue.use(VueSocialSharing);
 
 
 const ADMIN = 1

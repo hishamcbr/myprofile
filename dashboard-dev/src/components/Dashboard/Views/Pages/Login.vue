@@ -109,7 +109,7 @@
       if(cook.email){
         // let decoded = jwt_decode(cook.token)
         // console.log(decoded)
-        this.form.email = cook.email ? cook.email : ''
+        // this.form.email = cook.email ? cook.email : ''
       }
     },
     beforeDestroy() {
